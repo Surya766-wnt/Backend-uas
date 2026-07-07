@@ -20,7 +20,7 @@ jobs:
 
       # 3. Menghentikan container lama
       - name: Stop Container
-        run: docker compose down || true
+        run: docker compose down
 
       # 4. Menjalankan container baru
       - name: Start Container
